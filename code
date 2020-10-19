@@ -1,7 +1,9 @@
-// bake your code here
-function pair_color(array){
+
+function  pair_color(array) {
+
     var n=array.length;
      var pair_count=0;
+     
     for(i=0;i<n;i++)
     {
         if((i+1)<n && array[i]==array[i+1]){
@@ -10,7 +12,9 @@ function pair_color(array){
             
         }
     }
+    
     document.write( "Unique Pair count is :" + pair_count);
 }
+
 var array=[4,4,4,4,3,3,3,5,5,5,5,1,1,1,2];
-pair_color(array);
+pair_color(array);// calling function to count total pair of scocks.
