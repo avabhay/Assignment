@@ -10,4 +10,4 @@ create table registration(
 
 ### Download the code and extract it to htdocs folder of xampp server and then run create table query
 ### I have used syscom database in mysql
-### Open the sysassig.php file on browser to run the project
+### Open http://localhost/Assignment-main/sysassig.php/ url on browser to run the project
