@@ -1,0 +1,90 @@
+        body{  
+              font-family: Calibri, Helvetica, sans-serif;  
+              
+            }  
+            .container {  
+                padding: 50px;  
+              background-color: lightblue;  
+            }  
+              
+            input[type=text], input[type=password],input[type=email], textarea {  
+              width: 100%;  
+              padding: 15px;  
+              margin: 5px 0 22px 0;  
+              display: inline-block;  
+              border: none;  
+              background: #f1f1f1;  
+            }  
+            input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {  
+              background-color: orange;  
+              outline: none;  
+            }  
+            #for_signup {
+                  width: 100%;
+                        padding: 10px 0; 
+            }
+            #for_login{
+                   width: 100%;
+                        padding: 10px 0; 
+            }
+             div {      border: 2px;
+                      text-align: left;
+                      width: 30%;
+                        padding: 10px 0;  
+                     }  
+            
+            label {
+              text-align: left;
+            }
+            input[type=checkbox]:focus{
+              text-shadow: currentColor;
+            }
+            .registerbtn1 {  
+              background-color: #4CAF50;  
+              color: white;  
+              padding: 16px 20px;  
+              margin: 8px 0;  
+              border: none;  
+              cursor: pointer;  
+              width: 30%;  
+              opacity: 0.9; 
+             
+            }  
+            #show_psw{
+              margin-left: 80%;
+            }
+            .active {
+              background-color: #4CAF50 !important;  
+              color: white !important;  
+            }
+            .btn {  
+              background-color: #f1f1f1;  
+              color: black;  
+              padding: 20px 40px;  
+              margin: 8px 0;  
+              border: none;  
+              cursor: pointer;  
+              opacity: 0.9;  
+              border-radius: 10px;
+            } 
+            .registerbtn {  
+              background-color: #4CAF50;  
+              color: white;  
+              padding: 20px 40px;  
+              margin: 8px 0;  
+              border: none;  
+              cursor: pointer;  
+              opacity: 0.9;  
+              border-radius: 10px;
+            } 
+            .image{
+              width: 590px;
+                height: 200px;
+                object-fit: cover;
+            }
+           .invalidCreds {
+              text-align: center;
+              width: 101%;
+              color: red;
+              background-color: black;
+            }
